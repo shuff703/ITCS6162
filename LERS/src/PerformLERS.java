@@ -163,7 +163,7 @@ public class PerformLERS {
 	//Reading attributes file
 	private static void readAttributes() {
 		try {
-			input = new Scanner(new File(commonStrings.ATTRIBUTES_FILE_PATH));
+			input = new Scanner(new File(commonStrings.MAMMOGRAPHIC_ATTRIBUTES));
 			
 			while (input.hasNext()) {
 				String attributeName = input.next(); 
@@ -182,7 +182,7 @@ public class PerformLERS {
 	//Reading data file
 	private static void readData() {
 		try {
-			input = new Scanner(new File(commonStrings.DATA_FILE_PATH));
+			input = new Scanner(new File(commonStrings.MAMMOGRAPHIC_DATA));
 			int lineNo = 0;
 //			
 //			String splittingCharacter = getSplittingCharacter(input);

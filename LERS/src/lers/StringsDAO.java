@@ -4,6 +4,10 @@ public class StringsDAO {
 	public String ATTRIBUTES_FILE_PATH = "attributes.txt";
 	public String DATA_FILE_PATH = "data.txt";
 	
+	//Project Data
+	public String MAMMOGRAPHIC_DATA = "mammographic.csv";
+	public String MAMMOGRAPHIC_ATTRIBUTES = "mammographic_attributes.txt";
+	
 	public String FILE_NOT_FOUND = "File Not Found...";
 	public String GIVE_CHOICE = "Please Give a choice\n1.Enter Stable Attributes...\n2.Go next...";
 	public String GIVE_AAR_CHOICE = "Please Give a choice\n1.Enter Stable Attributes...\n2.Continue...";
